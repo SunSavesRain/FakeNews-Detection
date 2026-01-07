@@ -1,0 +1,26 @@
+# --- PyCharm 自动生成的文件 ---
+.idea/
+*.xml
+
+# --- Python 编译垃圾 ---
+__pycache__/
+*.pyc
+
+# --- 虚拟环境 (千万别传这个！) ---
+venv/
+.venv/
+env/
+
+# --- 你的大文件 (数据集 & 模型) ---
+*.csv
+*.tsv
+*.pt
+*.pth
+*.bin
+my_fake_news_screener/
+final_model/
+results/
+logs/
+
+# --- Mac 系统垃圾 ---
+.DS_Store

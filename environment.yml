@@ -1,6 +1,21 @@
 name: FakeNews-Detection
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.11
-prefix: /opt/miniconda3/envs/FakeNews-Detection
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers==4.57.3
+      - datasets==2.21.0
+      - accelerate==1.12.0
+      - scikit-learn==1.8.0
+      - pandas==2.3.3
+      - numpy
+      - huggingface-hub
+      - safetensors
+      - pyyaml
+      - tqdm

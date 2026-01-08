@@ -24,3 +24,6 @@ logs/
 
 # --- Mac 系统垃圾 ---
 .DS_Store
+# --- 训练过程产生的中间件 ---
+results_baseline/
+results_optimized/
